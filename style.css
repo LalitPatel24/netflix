@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+
+    background:  linear-gradient(90deg, rgba(57,56,59,1) 0%, rgba(17,9,9,1) 0%, rgba(10,1,1,0.35906862745098034) 100%, rgba(99,95,90,0.7876400560224089) 100%),url('./IN-en-20230710-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+    /* background-image: url(IN-en-20230710-popsignuptwoweeks-perspective_alpha_website_large.jpg); */
+    background-size: cover;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box {
+    width: 30%;
+    height: 600px;
+    border-radius: 3px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, rgba(57,56,59,1) 0%, rgba(17,9,9,1) 0%, rgba(10,1,1,0.8044467787114846) 100%, rgba(99,95,90,0.7876400560224089) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+img{
+    width: 167px;
+    height: 45;
+    margin-right: 1300px;
+    background: transparent;
+}
+.box h1{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 30px;
+    margin-right: 200px;
+}
+.box input{
+    width: 350px;
+    height: 45px;
+    background-color: rgb(74, 70, 70);
+    border: none;
+    border-radius: 3px;
+    font-size: large;
+    
+}
+#aa {
+    margin-top: 20px;
+}
+.box button{
+    width: 350px;
+    height: 45px;
+    color: white;
+    background-color: rgb(225, 36, 36);
+    margin-top: 20px;
+    border: none;
+    border-radius: 3px;
+    font-size: x-large;
+}
+
+.box p{
+    color: rgb(223, 218, 218);
+    display: flex;
+  
+    
+}
+.box span{
+  
+    display: flex;
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+
+.box h3{
+    font-size: 14px;
+}
+#as{
+    margin-top: 20px;
+}
+
